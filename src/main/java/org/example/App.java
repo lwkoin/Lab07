@@ -10,4 +10,8 @@ public class App
     {
         System.out.println( "Hello World!" );
     }
+    public static String fizzbuzz(int i) {
+        if(i%3 == 0) return "Fizz";
+        else return "Buzz";
+    }
 }
